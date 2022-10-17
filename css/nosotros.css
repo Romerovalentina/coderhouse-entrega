@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Fugaz+One&family=Josefin+Sans:ital,wght@1,700&family=Michroma&family=Neucha&family=News+Cycle&family=Philosopher:ital,wght@1,400;1,700&family=Quattrocento+Sans:wght@400;700&family=Quicksand:wght@700&family=Urbanist:ital,wght@0,300;0,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*--------------HEADER---------------*/
+header{
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0%;
+
+}
+header nav li{
+    display: inline;
+}
+header{
+    text-decoration: none;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+header h1{
+    color: white;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Fugaz One', cursive;
+    text-align: start;
+}
+header span{
+    color: rgb(245, 24, 24);
+}
+
+/*----------MAIN-----------*/
+.publicidad{
+    background-image: url(../img/nosotros.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.publicidad{
+    color: rgb(201, 24, 24);
+    font-size: 36px;
+    font-family: 'Fugaz One', cursive;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'News Cycle', sans-serif;
+    margin: 50px;
+    padding: 10px;
+
+}
+.nosotros img{
+    width: 540px;
+    height: 440px;
+    float: right;
+}
+.nosotros h3{
+    font-size: 25px;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+    border: 2px; color: black;
+}
+
+.nosotros p{
+    font-size: 18px;
+}
+
+
+
+/*---------------FOOTER------------*/
+footer{
+    background-color: rgb(0, 0, 0);
+    font-style: italic;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+footer div{
+    margin: 20px;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    font-size: medium;
+    font-family: 'News Cycle', sans-serif;
+}
