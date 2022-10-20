@@ -135,3 +135,22 @@ footer div{
     font-size: medium;
     font-family: 'News Cycle', sans-serif;
 }
+
+@media screen and (max-width: 970px){
+    .header{
+        flex-direction:column;
+        text-align: center;
+        margin: 5px;
+}}
+@media screen and (max-width: 950px){
+    .header{
+        flex-direction:column;
+        text-align: center;
+        margin: 5px;
+}}
+@media screen and (max-width: 400px){
+    .header{
+        flex-direction:column;
+        text-align: center;
+        margin: 5px;
+}}
